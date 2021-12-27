@@ -1,0 +1,54 @@
+The length of answer is 6
+Enter your guess:
+Invalid, please enter your guess again:
+Your guess is 284793; the result is 1A3B
+Enter your guess:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Your guess is 234859; the result is 1A3B
+Enter your guess:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Your guess is 012345; the result is 0A2B
+Enter your guess:
+Your guess is 931085; the result is 1A2B
+Enter your guess:
+Invalid, please enter your guess again:
+Your guess is 125690; the result is 1A2B
+Enter your guess:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Your guess is 987345; the result is 3A2B
+Enter your guess:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Your guess is 981205; the result is 2A1B
+Enter your guess:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Your guess is 920184; the result is 2A1B
+Enter your guess:
+Invalid, please enter your guess again:
+Your guess is 120367; the result is 0A2B
+Enter your guess:
+Your guess is 891024; the result is 1A2B
+Enter your guess:
+Your guess is 986547; the result is 2A4B
+Enter your guess:
+Your guess is 985673; the result is 3A2B
+Enter your guess:
+Your guess is 987653; the result is 5A0B
+Enter your guess:
+Your guess is 456789; the result is 0A6B
+Enter your guess:
+Your guess is 987654; the result is 6A0B
+Finish!!!

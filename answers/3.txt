@@ -1,0 +1,22 @@
+The length of answer is 7
+Enter your guess:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Invalid, please enter your guess again:
+Your guess is 2346091; the result is 0A5B
+Enter your guess:
+Your guess is 1294067; the result is 0A6B
+Enter your guess:
+Your guess is 1029487; the result is 2A5B
+Enter your guess:
+Your guess is 7829014; the result is 5A2B
+Enter your guess:
+Your guess is 7829104; the result is 7A0B
+Finish!!!

@@ -1,0 +1,4 @@
+The length of answer is 4
+Enter your guess:
+Your guess is 1234; the result is 4A0B
+Finish!!!
