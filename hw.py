@@ -30,7 +30,7 @@ def read_input(guess_len: int) -> str:
     Note: a valid guess means contain only guess_len non-repetitive integer range from 0~9
     """
     # TODO
-    input=("Enter your guess:\n")
+    guess=input("Enter your guess:\n")
 
 def enter_answer() -> str:
     """
