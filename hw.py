@@ -65,4 +65,3 @@ def enter_answer() -> str:
     # TODO
     read=input()
     return read
-            
