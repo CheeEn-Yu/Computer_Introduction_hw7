@@ -47,15 +47,14 @@ def read_input(guess_len: int) -> str:
     """
     # TODO
     guess=input("Enter your guess:\n")
-    while(len(guess) != guess_len):
+    guess_list = list(guess)
+    guess_set = set(guess_list)
+    
+    while((len(guess) != guess_len) or (len(guess_set) != len(guess_list)) or (guess.isdigit() != True)):
         guess = input("Invalid, please enter your guess again:\n")
-    for i in range(guess_len-1):
-        for j in range(i+1,guess_len):
-            while(guess[i] == guess[j]):
-                guess = input("Invalid, please enter your guess again:\n")
-    for i in range(guess_len):
-        while(guess[i]!='1' or guess[i]!='2' or guess[i]!='3'or guess[i]!='4'or guess[i]!='5'or guess[i]!='6'or guess[i]!='7'or guess[i]!='8'or guess[i]!='9'or guess[i]!='0'):
-            guess = input("Invalid, please enter your guess again:\n")
+        guess_list = list(guess)
+        guess_set = set(guess_list)
+        
 
 
     return guess
