@@ -20,9 +20,9 @@ class Judge:
         A = 0
         B = 0
         for i in range(len(self.answer)):
-            if self.answer == num:
+            if self.answer[i] == num[i]:
                 A+=1
-        for i in range(len(self.answer)):
+        for i in range(len(self.answer)-1):
             for j in range(i+1,len(self.answer)):
                 if self.answer[i] == self.answer[j]:
                     B+=1
@@ -47,9 +47,17 @@ def read_input(guess_len: int) -> str:
     """
     # TODO
     guess=input("Enter your guess:\n")
-    if len(guess) != guess_len:
+    while(len(guess) != guess_len):
         guess = input("Invalid, please enter your guess again:\n")
-    
+    for i in range(guess_len-1):
+        for j in range(i+1,guess_len):
+            while(guess[i] == guess[j]):
+                guess = input("Invalid, please enter your guess again:\n")
+    for i in range(guess_len):
+        while(guess[i]!='1' or guess[i]!='2' or guess[i]!='3'or guess[i]!='4'or guess[i]!='5'or guess[i]!='6'or guess[i]!='7'or guess[i]!='8'or guess[i]!='9'or guess[i]!='0'):
+            guess = input("Invalid, please enter your guess again:\n")
+
+
     return guess
     
 
