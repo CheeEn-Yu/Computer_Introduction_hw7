@@ -17,6 +17,7 @@ class Judge:
         """
         # TODO
         self.num = num
+        print(num)
         A = 0
         B = 0
         for i in range(len(self.answer)):
@@ -26,7 +27,7 @@ class Judge:
             for j in range(i+1,len(self.answer)):
                 if self.answer[i] == self.answer[j]:
                     B+=1
-        print("Your guess is",num,"; the result is",A,"A",B,"B")
+        print("Your guess is",num,"; the result is %dA%dB" %(A,B))
 
         if self.num == self.answer:
             return 1
@@ -49,6 +50,7 @@ def read_input(guess_len: int) -> str:
     guess=input("Enter your guess:\n")
     if len(guess) != guess_len:
         guess = input("Invalid, please enter your guess again:\n")
+    return guess
     
 
 def enter_answer() -> str:
