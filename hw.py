@@ -55,8 +55,6 @@ def read_input(guess_len: int) -> str:
         guess_list = list(guess)
         guess_set = set(guess_list)
         
-
-
     return guess
     
 
@@ -67,3 +65,4 @@ def enter_answer() -> str:
     # TODO
     read=input()
     return read
+            
