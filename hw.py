@@ -5,6 +5,7 @@ class Judge:
         answer: (int) the final answer
         """
         # TODO
+        self.answer = answer
 
     def guess(self, num: str) -> bool:
         """
@@ -15,6 +16,21 @@ class Judge:
         return: whether the player guess the correct answer
         """
         # TODO
+        self.num = num
+        A = 0
+        B = 0
+        for i in range(len(self.answer)):
+            if self.answer == num:
+                A+=1
+        for i in range(len(self.answer)):
+            for j in range(i+1,len(self.answer)):
+                if self.answer[i] == self.answer[j]:
+                    B+=1
+        print("Your guess is",num,"; the result is",A,"A",B,"B")
+
+        if self.num == self.answer:
+            return 1
+        return 0
 
 
 def read_input(guess_len: int) -> str:
@@ -31,9 +47,14 @@ def read_input(guess_len: int) -> str:
     """
     # TODO
     guess=input("Enter your guess:\n")
+    if len(guess) != guess_len:
+        guess = input("Invalid, please enter your guess again:\n")
+    
 
 def enter_answer() -> str:
     """
     Function that enter the answer, you can assume that the answer must be valid.
     """
     # TODO
+    read=input()
+    return read
