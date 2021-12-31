@@ -19,12 +19,11 @@ class Judge:
         self.num = num
         A = 0
         B = 0
-        for i in range(len(self.answer)):
-            if self.answer[i] == num[i]:
-                A+=1
-        for i in range(len(self.answer)-1):
-            for j in range(i+1,len(self.answer)):
-                if self.answer[i] == self.answer[j]:
+        for i,j in zip(self.answer,num):
+            if j in self.answer:
+                if j == i:
+                    A+=1
+                else:
                     B+=1
         print("Your guess is %s; the result is %dA%dB" %(num,A,B))
 
